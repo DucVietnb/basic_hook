@@ -5,6 +5,8 @@ import TrainUseEffect from "./Training/TrainUseEffect";
 import TrainUseRef from "./Training/TrainUseRef";
 import TrainReactMemo from "./Training/TrainReactMemo";
 import TrainReducer from "./Training/TrainReducer";
+import Index from "./Training/Todo/Index";
+import TrainUseContext from "./Training/TrainUseContext/TrainUseContext";
 function App() {
   const [showTrainUseState, setshowTrainUseState] = useState(false);
   const [showTrainUseEffect, setShowTrainUseEffect] = useState(false);
@@ -42,8 +44,10 @@ function App() {
       </div>
 
       <div>
-        <TrainReducer />
+        {/* <Index /> */}haha
+        <TrainUseContext />
       </div>
+
       <div style={{ height: "100px" }}></div>
     </div>
   );
